@@ -1,0 +1,57 @@
+# ppk files
+savonik_test_office2amrita.ppk
+savonik_test_office2amrita.pem
+
+# yii console command
+/yii
+/yii.env
+/.app.env
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# composer console commands
+/composer.phar
+/composer.lock
+
+# composer vendor dir
+/vendor
+vendor
+
+# composer itself is not needed
+composer.phar
+composer.lock
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+tests/_output/*
+
+ACCESS.txt
+logs
+npm-debug.log
+node_modules/
+stats
+_DOC
+
+# Sublime Text sftp-config.json
+/sftp-config.json
