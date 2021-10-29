@@ -1,5 +1,8 @@
-# phpstorm project files
+# project files
 .idea
+
+# project files
+.vscode
 
 # windows thumbnail cache
 Thumbs.db
