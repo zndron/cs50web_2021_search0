@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Розширений пошук</title>
+</head>
+<body>
+<nav class="fixed-top">
+    <ul class="nav justify-content-start">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">
+                <img class="img-logo img-fluid" src="./img/logo.png">
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<main class="container form-advanced-search">
+    <form action="https://google.com/search" method="GET">
+
+        <div class="row">
+            <div class="col-12 col-sm-3">
+                <h5 class="p-2 text-danger">Розширений пошук</h5>
+            </div>
+            <div class="col-12 col-sm-5"></div>
+            <div class="col-12 col-sm-4"></div>
+
+            <div class="w-100 border-bottom"></div>
+
+            <div class="col-12 col-sm-3">
+                <h6 class="p-2">Знайти сторінки із</h6>
+            </div>
+            <div class="col-12 col-sm-5"></div>
+            <div class="col-12 col-sm-4"></div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 col-sm-3">
+                <div class="p-2">усіма цими словами:</div>
+            </div>
+            <div class="col-12 col-sm-5">
+                <div class="py-2"><input class="form-control" type="text" name="as_q"/></div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="p-2">Введіть важливі слова: <small>триколірний рет-тер’єр</small></div>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 col-sm-3">
+                <div class="p-2">саме цим словом або фразою:</div>
+            </div>
+            <div class="col-12 col-sm-5">
+                <div class="py-2"><input class="form-control" type="text" name="as_epq"/></div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="p-2">Візьміть точні слова в лапки: <small>"рет-тер’єр"</small></div>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 col-sm-3">
+                <div class="p-2">будь-яким із цих слів:</div>
+            </div>
+            <div class="col-12 col-sm-5">
+                <div class="py-2"><input class="form-control" type="text" name="as_oq"/></div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="p-2">Введіть OR між усіма потрібними словами: <small>мініатюрні OR стандартні</small></div>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 col-sm-3">
+                <div class="p-2">жодне з цих слів:</div>
+            </div>
+            <div class="col-12 col-sm-5">
+                <div class="py-2"><input class="form-control" type="text" name="as_eq"/></div>
+            </div>
+            <div class="col-12 col-sm-4">
+                <div class="p-2">Поставте знак мінус перед небажаними словами: <small>-гризун, -"Джек Рассел"</small>
+                </div>
+            </div>
+
+            <div class="w-100"></div>
+
+            <div class="col-12 col-sm-3"></div>
+            <div class="col-12 col-sm-5">
+                <div class="py-2 d-flex justify-content-end">
+                    <input class="btn btn-primary" type="submit" value="Розширений пошук"/>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4"></div>
+        </div>
+    </form>
+</main>
+</body>
+</html>
