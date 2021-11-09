@@ -8,17 +8,25 @@
     <title>Розширений пошук Google</title>
 </head>
 <body>
-<nav class="fixed-top">
-    <ul class="nav justify-content-start">
+<nav class="d-flex justify-content-between">
+    <ul class="nav">
         <li class="nav-item">
             <a class="nav-link" href="index.html">
                 <img class="img-logo img-fluid" src="./img/logo.png">
             </a>
         </li>
     </ul>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Пошук Google</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="advanced_search.html">Розширений пошук</a>
+        </li>
+    </ul>
 </nav>
 
-<main class="container form-advanced-search">
+<main class="form-advanced-search p-2">
     <form action="https://google.com/search" method="GET">
 
         <div class="row">
@@ -90,7 +98,7 @@
             <div class="col-12 col-sm-3"></div>
             <div class="col-12 col-sm-5">
                 <div class="py-2 d-flex justify-content-end">
-                    <input class="btn btn-primary" type="submit" value="Розширений пошук"/>
+                    <input class="btn btn-outline-primary" type="submit" value="Розширений пошук"/>
                 </div>
             </div>
             <div class="col-12 col-sm-4"></div>

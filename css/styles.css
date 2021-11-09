@@ -4,8 +4,6 @@ body {
 }
 
 body {
-    /*display: flex;*/
-    /*align-items: center;*/
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #fff;
@@ -44,46 +42,40 @@ main {
 .form-search .form-control {
     border-radius: 24px;
     height: 44px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid #ced4da;
 }
 
 .form-advanced-search .form-control:hover,
 .form-advanced-search .form-control:focus,
 .form-search .form-control:hover,
 .form-search .form-control:focus {
-    border-color: #dfe1e5;
-    -webkit-box-shadow: none; /*0 1px 6px rgba(32, 33, 36, .28);*/
-    box-shadow: none; /*0 1px 6px rgba(32, 33, 36, .28);*/
+    border-color: #ced4da;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .form-search input[type="submit"] {
     font-family: arial, sans-serif;
     font-size: 14px;
-    color: #3c4043;
 }
 
 .form-search input[type="submit"]:hover {
-    box-shadow: none; /*0 1px 1px rgba(0, 0, 0, .1);*/
-    background-color: #f8f9fa;
-    border: 1px solid #dadce0;
-    color: #202124
+    box-shadow: none;
 }
 
 .form-search input[type="submit"]:focus {
-    border: 1px solid #4285f4;
     outline: none
 }
 
 .form-advanced-search input[type="submit"] {
     font-family: arial, sans-serif;
     font-size: 14px;
-    color: #fff;
 }
 
 .input-group-search .icon-search {
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid #ced4da;
     border-right: 0;
     background-color: #fff;
 }
@@ -99,7 +91,7 @@ main {
 .input-group-search-images .btn {
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
-    border: 1px solid #dfe1e5;
+    border: 1px solid #ced4da;
     border-left: 0;
 }
 
